@@ -1,0 +1,143 @@
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd">
+    <Nfse xmlns="http://www.abrasf.org.br/nfse.xsd" versao="1.00">
+        <InfNfse Id="nfse">
+            <Numero>202200000237998</Numero>
+            <CodigoVerificacao>c880fa0a</CodigoVerificacao>
+            <DataEmissao>2022-05-31T06:37:29</DataEmissao>
+            <IdentificacaoRps>
+                <Numero>17544</Numero>
+                <Serie>99</Serie>
+                <Tipo>1</Tipo>
+            </IdentificacaoRps>
+            <DataEmissaoRps>2022-05-30</DataEmissaoRps>
+            <NaturezaOperacao>4</NaturezaOperacao>
+            <OptanteSimplesNacional>2</OptanteSimplesNacional>
+            <IncentivadorCultural>2</IncentivadorCultural>
+            <Competencia>2022-05-30T00:00:00</Competencia>
+            <Servico>
+                <Valores>
+                    <ValorServicos>228.00</ValorServicos>
+                    <ValorDeducoes>0.00</ValorDeducoes>
+                    <ValorPis>0.00</ValorPis>
+                    <ValorCofins>0.00</ValorCofins>
+                    <ValorInss>0.00</ValorInss>
+                    <ValorIr>0.00</ValorIr>
+                    <ValorCsll>0.00</ValorCsll>
+                    <IssRetido>2</IssRetido>
+                    <ValorIss>0.00</ValorIss>
+                    <BaseCalculo>228.00</BaseCalculo>
+                    <Aliquota>0</Aliquota>
+                    <ValorLiquidoNfse>228.00</ValorLiquidoNfse>
+                    <DescontoIncondicionado>0.00</DescontoIncondicionado>
+                </Valores>
+                <ItemListaServico>6.04</ItemListaServico>
+                <CodigoTributacaoMunicipio>60400100</CodigoTributacaoMunicipio>
+                <Discriminacao>Prestação de Serviços</Discriminacao>
+                <CodigoMunicipio>4314902</CodigoMunicipio>
+            </Servico>
+            <PrestadorServico>
+                <IdentificacaoPrestador>
+                    <Cnpj>88630413000281</Cnpj>
+                    <InscricaoMunicipal>12575925</InscricaoMunicipal>
+                </IdentificacaoPrestador>
+                <RazaoSocial>UNIAO BRASILEIRA DE EDUCACAO E ASSISTENCIA</RazaoSocial>
+                <NomeFantasia>PONTIFICIA UNIVERSIDADE CATÓLICA DO RS-CAMPUS POA</NomeFantasia>
+                <Endereco>
+                    <Endereco>AV IPIRANGA</Endereco>
+                    <Numero>6681</Numero>
+                    <Complemento>AP/SL PUCRS</Complemento>
+                    <Bairro>PARTENON</Bairro>
+                    <CodigoMunicipio>4314902</CodigoMunicipio>
+                    <Uf>RS</Uf>
+                    <Cep>90619900</Cep>
+                </Endereco>
+            </PrestadorServico>
+            <TomadorServico>
+                <IdentificacaoTomador>
+                    <CpfCnpj>
+                        <Cpf>61642096091</Cpf>
+                    </CpfCnpj>
+                </IdentificacaoTomador>
+                <RazaoSocial>Cassio Andre Wailer Trindade</RazaoSocial>
+                <Endereco>
+                    <Endereco>Rua Frei Clemente</Endereco>
+                    <Numero>06</Numero>
+                    <Bairro>São José</Bairro>
+                    <CodigoMunicipio>4314902</CodigoMunicipio>
+                    <Uf>RS</Uf>
+                    <Cep>91520260</Cep>
+                </Endereco>
+                <Contato>
+                    <Email>cassio.trindade@pucrs.br</Email>
+                </Contato>
+            </TomadorServico>
+            <OrgaoGerador>
+                <CodigoMunicipio>4314902</CodigoMunicipio>
+                <Uf>RS</Uf>
+            </OrgaoGerador>
+        </InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="NfseAssSMF_nfse">
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                <Reference URI="#nfse">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                    <DigestValue>tZFkEk5hFR15z1VJ8O8KN9mMg/E=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>ZfckALUkJAT5AfZL5SLAmvTcCVCLjrYjko92vdL/jl3ny6v7u0EhfoqU2NK9NkFJFOkA6b7zIkt2
+                ek0pvxVRz3UlvH2Y44/FpDSWcaO7LLAH3XbgcVkcDr7HmsaAIbB1GfmNlrdeeSFoeFQRJEeU4848
+                gh9Xwi1+v4frxKVN7LW1pHRxja4jE6/ybFP/iYQbZo9j/6tE0ws3/U7alm3xjdtCb7Sl0zFwmQtm
+                RQRSst0rx0vGQJM2Lpuq3YDGAS7TG9e4WVniaoLjbtz5lm3aXyhcPOkULc/CuIbQRTx5tiyBacNK
+                ASwl+QLUqvLfo0Mz5271k5bN17zWG1tM9P5ktQ==
+            </SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>MIIIQjCCBiqgAwIBAgIQL3SZCryPwyZlYabzAD8u9zANBgkqhkiG9w0BAQsFADCBgDELMAkGA1UE
+                        BhMCQlIxEzARBgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0
+                        YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEkMCIGA1UEAxMbQUMgSW5zdGl0dXRvIEZlbmFjb24g
+                        UkZCIEczMB4XDTIxMTIxNDEzNTYzN1oXDTIyMTIxNDEzNTYzN1owgfcxCzAJBgNVBAYTAkJSMRMw
+                        EQYDVQQKDApJQ1AtQnJhc2lsMQswCQYDVQQIDAJSUzEVMBMGA1UEBwwMUE9SVE8gQUxFR1JFMTYw
+                        NAYDVQQLDC1TZWNyZXRhcmlhIGRhIFJlY2VpdGEgRmVkZXJhbCBkbyBCcmFzaWwgLSBSRkIxFjAU
+                        BgNVBAsMDVJGQiBlLUNOUEogQTExFzAVBgNVBAsMDjM1ODI4MDUxMDAwMTkwMRMwEQYDVQQLDApQ
+                        UkVTRU5DSUFMMTEwLwYDVQQDDChNVU5JQ0lQSU8gREUgUE9SVE8gQUxFR1JFOjkyOTYzNTYwMDAw
+                        MTYwMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqUeDpGWON9EZegaKUu01qP4PPtKU
+                        GMPaAnkGQehC56xG6SLMVRHmXtUIPEJr5J9W5wKiBsdlLJmDiBXB2PybCw3rfU0H428rklRsn3nG
+                        g7iFwXtwp2cUlhZp7FoUdcwLL//YvOyUl3nTDU3GwwY5+gg/SkBhQVFxlIxvyqkYvtRaxRFFqJ0M
+                        HwKBM8xG0OtTHSuSODK1gAwDk4DHTi4WBNmF7G9TjrwQwNcOwqwEafHDsRif32EjQmYbuHrfIYNM
+                        QyxH6tP5ux+d0eos9GrrXXtvCC2/R9wpA65Pwe0SrmXOX4ITg5fIX/Bb377nxAEcw4JX2Unomt08
+                        SB0s+Y9X6QIDAQABo4IDPTCCAzkwgccGA1UdEQSBvzCBvKBCBgVgTAEDBKA5BDcyNDA3MTk1ODE1
+                        OTY5Nzk3MTIwMDAwMDAwMDAwMDAwMDAwMDMwMTMxMjgyNDgwMDAwMFNTUFJToCMGBWBMAQMCoBoE
+                        GFNFQkFTVElBTyBERSBBUkFVSk8gTUVMT6AZBgVgTAEDA6AQBA45Mjk2MzU2MDAwMDE2MKAXBgVg
+                        TAEDB6AOBAwwMDAwMDAwMDAwMDCBHXBpZXRyby5iaWFzdXpAcHJvY2VtcGEuY29tLmJyMAkGA1Ud
+                        EwQCMAAwHwYDVR0jBBgwFoAUJseUPXqHfn9LeIqHPeDPtc6psNowgYYGA1UdIAR/MH0wewYGYEwB
+                        AgEiMHEwbwYIKwYBBQUHAgEWY2h0dHA6Ly9pY3AtYnJhc2lsLmFjZmVuYWNvbi5jb20uYnIvcmVw
+                        b3NpdG9yaW8vZHBjL0FDLUluc3RpdHV0by1GZW5hY29uLVJGQi9EUENfQUNfSUZlbmFjb25fUkZC
+                        LnBkZjCBygYDVR0fBIHCMIG/MF6gXKBahlhodHRwOi8vaWNwLWJyYXNpbC5hY2ZlbmFjb24uY29t
+                        LmJyL3JlcG9zaXRvcmlvL2xjci9BQ0luc3RpdHV0b0ZlbmFjb25SRkJHMy9MYXRlc3RDUkwuY3Js
+                        MF2gW6BZhldodHRwOi8vaWNwLWJyYXNpbC5vdXRyYWxjci5jb20uYnIvcmVwb3NpdG9yaW8vbGNy
+                        L0FDSW5zdGl0dXRvRmVuYWNvblJGQkczL0xhdGVzdENSTC5jcmwwDgYDVR0PAQH/BAQDAgXgMB0G
+                        A1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBuwYIKwYBBQUHAQEEga4wgaswZgYIKwYBBQUH
+                        MAKGWmh0dHA6Ly9pY3AtYnJhc2lsLmFjZmVuYWNvbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlm
+                        aWNhZG9zL0FDX0luc3RpdHV0b19GZW5hY29uX1JGQkczLnA3YzBBBggrBgEFBQcwAYY1aHR0cDov
+                        L29jc3AtYWMtaW5zdGl0dXRvLWZlbmFjb24tcmZiLmNlcnRpc2lnbi5jb20uYnIwDQYJKoZIhvcN
+                        AQELBQADggIBAAber/XR/RYlwmM48RQtDSiOOu1cvz1W/YQ/j7P6EDA/5cXyCFQKgyNpbCjSREtq
+                        hRYqVg+nKwf2YWVuQOgvRpJ7qTUamrK7IAizeLJDoEPNZeARUbVEPJg7Hkg23lgRZx0S2eYcYuIt
+                        g1toETABcyCl91akWF4bnjTNJ7OLcIXpLzq9RPll346QMTI2MYMZSU2w4c5oU0trMWg5NEGEEF1i
+                        Kfm1L/g1P9qj8JEciQD8k8oPwi2BokrC5I9EVwMariE+qkdTJIofiak7UUskPYgjtSyql932Ppse
+                        MMMjwoTXFhCppfDcz8iEdd60QqpybWE2N/IBUlCWDqYf/r7t2vvdW1eNV428lIbr6RkweqgWENwj
+                        OirlZqsAZDjSHu/vz6Fl70IHkzWEOR9AJXq54gFxtMvk7Xo395tvhiSw6XG+nGSYFPL48gTjXays
+                        uaJe7iErKFC/dYs+z6RhRQYQeqpc+Y9DSooVzpUgUSoWG6Ysp+hZETpU5MykaXxY+m/nV9mC1+sh
+                        pqSbRYaoUfBCxThnFcH9LraispFyGtuPchhZt8NO3UuN6rQv68zYWgJIPe/HV+H3CoxYAxnrIiow
+                        4Fips91hu5aPIqr2JX9Y6FF7rhvI+PulsS/zpBsl7r+hM0KukZCoMNyPkfkBapjZ6UvqDJfjjf89
+                        /6CCjaWwuyVt
+                    </X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+    </Nfse>
+</CompNfse>
