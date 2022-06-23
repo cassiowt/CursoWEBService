@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope/"
+               soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
+    <!--Elemento raiz do SOAP que define que essa é uma mensagem SOAP-->
+    <soap:Header> <!--Informações específicas como autenticação (opcional)-->
+    </soap:Header>
+    <soap:Body> <!--Elemento que contém o corpo da mensagem-->
+        <soap:Fault> <!--Elemento que contém os erros que podem ocorrer -->
+        </soap:Fault>
+    </soap:Body>
+</soap:Envelope>
