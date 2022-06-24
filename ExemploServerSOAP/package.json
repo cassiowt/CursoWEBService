@@ -1,0 +1,16 @@
+{
+  "name": "exemploserversoap",
+  "version": "1.0.0",
+  "description": "Exemplo de Server SOAP com Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cassio Trindade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "soap": "^0.45.0"
+  }
+}
