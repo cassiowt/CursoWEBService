@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "26712936-3b17-4ebc-b344-6f35e7a3fc44",
+		"name": "Exemplo Server REST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1110882"
+	},
+	"item": [
+		{
+			"name": "Route GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3010/sequence",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3010",
+					"path": [
+						"sequence"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Route POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJpZFwiOjEsXCJjcGZcIjpcIjg1MTcyNTk2MDIwXCIsXCJlbWFpbFwiOlwiYnJ1bm8ubWF6emFyZG9AZ21haWwuY29tXCIsXCJuYW1lXCI6XCJCcnVubyBNYXp6YXJkb1wiLFwicGFzc3dvcmRcIjpcIjJkODRlNDUwMGI2MmEwOGM1NWYxODc2NmE0MDNiYTk5XCIsXCJwaG9uZVwiOlwiOTk5OTE5MjlcIixcInJvbGVcIjpcImFuYWx5c3RcIixcImFjdGl2ZVwiOnRydWUsXCJ2YWxpZFwiOnRydWV9IiwiaWF0IjoxNTAzNjEyMzgxLCJleHAiOjE1MDM5NTc5ODF9.tH1awzbp1FMLbv_QxVXZ5dKdFSrk3e80R9M1GNPMk-6r0dxx38ZdZClWMP7p7wJ0Nm4t3JK8ZVWb0ANVMhRjrQ"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cpf\": \"03022554001\",\n    \"email\": \"luiz.gustavo@gmail.com\",\n    \"name\": \"leonardo\",\n    \"password\": \"123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3010/sequence",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3010",
+					"path": [
+						"sequence"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reoute DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cpf\": 61642096091,\n    \"password\": \"123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3010/sequence",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3010",
+					"path": [
+						"sequence"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Route PUT",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cpf\": \"03022554001\",\n    \"password\": \"123\"\n}"
+				},
+				"url": {
+					"raw": "http://www.homo.ages.pucrs.br/modeloapi/auth/login",
+					"protocol": "http",
+					"host": [
+						"www",
+						"homo",
+						"ages",
+						"pucrs",
+						"br"
+					],
+					"path": [
+						"modeloapi",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Route GET id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-access-token",
+						"value": "{{token}}"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3010/sequence/1010",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3010",
+					"path": [
+						"sequence",
+						"1010"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
