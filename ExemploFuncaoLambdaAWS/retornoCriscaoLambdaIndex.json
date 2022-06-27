@@ -1,0 +1,28 @@
+{
+  "FunctionName": "LambdaFunctionOverHttps",
+  "FunctionArn": "arn:aws:lambda:us-east-2:029236691098:function:LambdaFunctionOverHttps",
+  "Runtime": "nodejs12.x",
+  "Role": "arn:aws:iam::029236691098:role/lambda-apigateway-role",
+  "Handler": "index.handler",
+  "CodeSize": 660,
+  "Description": "",
+  "Timeout": 3,
+  "MemorySize": 128,
+  "LastModified": "2022-06-27T20:04:57.881+0000",
+  "CodeSha256": "L9BOZat4c1aLQRZmbZIqXezkKOTN3qZQnBPDhzw23Ss=",
+  "Version": "$LATEST",
+  "TracingConfig": {
+    "Mode": "PassThrough"
+  },
+  "RevisionId": "6e49cbd9-8687-40f8-bb36-5813c723a1f0",
+  "State": "Pending",
+  "StateReason": "The function is being created.",
+  "StateReasonCode": "Creating",
+  "PackageType": "Zip",
+  "Architectures": [
+    "x86_64"
+  ],
+  "EphemeralStorage": {
+    "Size": 512
+  }
+}
