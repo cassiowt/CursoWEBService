@@ -1,0 +1,12 @@
+<MapaCultural xmlns="http://localhost/map.xsd">
+    <Mpvx xmlns="http://localhost/map.xsd" versao="1.00">
+        <DonoMapa>
+            <Nome>cassio</Nome>
+            <CEP>91520260</CEP>
+        </DonoMapa>
+        <Mapa>
+            <IdMapa>1</IdMapa>
+            <Estrutura>xpto</Estrutura>
+        </Mapa>
+    </Mpvx>
+</MapaCultural>
