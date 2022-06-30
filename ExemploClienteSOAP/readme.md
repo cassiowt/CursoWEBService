@@ -82,8 +82,10 @@
   * Para ver o resultado execute o comando
   > node index.js
 
+____
 
-* Criar um client SOPA para consumir o Web Service do Correios Brasileiros.
+
+Criar um client SOAP para consumir o Web Service do Correios Brasileiros.
   * Criar o arquivo correios.js
 
   ```javascript
@@ -103,3 +105,5 @@
      // console.log('DESCRIBE -->', client.describe().AtendeClienteService.AtendeClientePort )
   });
   ```
+  * Para ver o resultado execute o comando
+  > node index.js
